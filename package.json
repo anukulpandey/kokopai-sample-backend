@@ -1,0 +1,34 @@
+{
+  "name": "kokopai-sample-backend",
+  "version": "1.0.0",
+  "description": "this is a sample application to show how to handle authentication like sqwid",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anukulpandey/kokopai-sample-backend.git"
+  },
+  "keywords": [
+    "kokopai",
+    "reef"
+  ],
+  "author": "@anukulpandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anukulpandey/kokopai-sample-backend/issues"
+  },
+  "homepage": "https://github.com/anukulpandey/kokopai-sample-backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "@polkadot/util": "^13.5.3",
+    "@polkadot/util-crypto": "^13.5.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
